@@ -25,6 +25,6 @@ if (newNode->right)
 {
 newNode->right->parent = newNode;
 }
-	newNode->right = NULL;
+	newNode->left = NULL;
 	return (newNode);
 }
